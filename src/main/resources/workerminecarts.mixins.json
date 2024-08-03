@@ -3,9 +3,11 @@
   "package": "com.github.mrspacema1.workerminecarts.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ExampleMixin"
+    "EntityAccessor",
+    "EntityMixin",
+    "PlayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-	}
+  }
 }
