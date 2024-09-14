@@ -1,4 +1,4 @@
-package com.github.mrspacema1.workerminecarts.data;
+package com.github.mrspaceman1.workerminecarts.data;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;

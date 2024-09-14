@@ -1,4 +1,4 @@
-package com.github.mrspacema1.workerminecarts.utils;
+package com.github.mrspaceman1.workerminecarts.utils;
 
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.*;
@@ -8,8 +8,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.item.ItemStack;
 
 import java.io.*;
-
-import static com.github.mrspacema1.workerminecarts.WorkerMinecarts.LOGGER;
 
 public class SimpleContainerSerialization {
     public static ByteArrayOutputStream containerToStream(SimpleContainer container, Entity ownerOfContainer) throws IOException {

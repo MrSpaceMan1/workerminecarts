@@ -1,4 +1,4 @@
-package com.github.mrspacema1.workerminecarts.mixin;
+package com.github.mrspaceman1.workerminecarts.mixin.accessor;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.item.component.CustomData;

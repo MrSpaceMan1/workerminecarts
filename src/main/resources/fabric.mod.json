@@ -15,11 +15,8 @@
 	"icon": "assets/workerminecarts/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"fabric-datagen": [
-			"com.github.mrspacema1.workerminecarts.data.WorkerMinecartsDataGeneration"
-		],
 		"main": [
-			"com.github.mrspacema1.workerminecarts.WorkerMinecarts"
+          "com.github.mrspaceman1.workerminecarts.WorkerMinecarts"
 		]
 	},
 	"mixins": [

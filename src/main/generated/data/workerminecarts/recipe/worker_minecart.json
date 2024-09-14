@@ -11,9 +11,12 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:wooden_hoe",
+    "id": "minecraft:stick",
     "components": {
-      "custom_model_data": 2137
-    },
+      "custom_model_data": 1,
+      "custom_data": {
+        "workerminecarts:id": "worker_minecart_item"
+      }
+    }
   }
 }

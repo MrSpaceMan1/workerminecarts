@@ -1,4 +1,4 @@
-package com.github.mrspacema1.workerminecarts.mixin;
+package com.github.mrspaceman1.workerminecarts.mixin;
 
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import static com.github.mrspacema1.workerminecarts.WorkerMinecarts.LOGGER;
+import static com.github.mrspaceman1.workerminecarts.WorkerMinecarts.LOGGER;
 
 @Mixin(Player.class)
 public class PlayerMixin {

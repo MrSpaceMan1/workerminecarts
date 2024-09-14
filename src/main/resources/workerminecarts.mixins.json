@@ -1,13 +1,16 @@
 {
   "required": true,
-  "package": "com.github.mrspacema1.workerminecarts.mixin",
+  "package": "com.github.mrspaceman1.workerminecarts.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "AbstractMinecartMixin",
-    "CustomDataAccessor",
-    "EntityAccessor",
     "EntityMixin",
-    "PlayerMixin"
+    "ItemMixin",
+    "PlayerMixin",
+    "SpawnerMinecartMixin",
+    "accessor.CustomDataAccessor",
+    "accessor.EntityAccessor",
+    "accessor.LivingEntityAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
